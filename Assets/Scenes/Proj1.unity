@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -520,8 +520,8 @@ GameObject:
   m_Component:
   - component: {fileID: 779261649}
   - component: {fileID: 779261651}
-  - component: {fileID: 779261652}
   - component: {fileID: 779261650}
+  - component: {fileID: 779261652}
   m_Layer: 5
   m_Name: Fists
   m_TagString: Untagged
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: cd1f2d2e5dae1154cad4709e59ce3828, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -594,7 +594,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779261648}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 71276e3aeb3c8944aa674c360fe3a4fb, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: d95de0ad97b73824d8df7c740d6aadc6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 377582669}
@@ -606,14 +606,14 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 5
-  m_AudioOutputMode: 2
+  m_PlaybackSpeed: 10
+  m_AudioOutputMode: 0
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
-  m_EnabledAudioTracks: 01
+  m_EnabledAudioTracks: 00
   m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
