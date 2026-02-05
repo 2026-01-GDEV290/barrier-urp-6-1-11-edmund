@@ -6,6 +6,7 @@ public class playerinputscript : MonoBehaviour
     private int punchCount = 0;
     [SerializeField]
     public Animator anim;
+    public Animator animBB;
 
 
 
@@ -22,18 +23,21 @@ public class playerinputscript : MonoBehaviour
         {
             anim.SetTrigger("Punch");
             punchCount++;
+            animBB.SetTrigger("moxieSmash");
         }
 
         else if (Input.GetKeyDown(KeyCode.Mouse0) && punchCount == 1)
         {
             anim.SetTrigger("Punch2");
                 punchCount++;
+            animBB.SetTrigger("moxieSmash");
         }
 
         else if (Input.GetKeyDown(KeyCode.Mouse0) && punchCount == 2)
         {
             anim.SetTrigger("Punch3");
-            punchCount++;
+            punchCount = 0;
+            animBB.SetTrigger("moxieSmash");
         }
     }
 }
