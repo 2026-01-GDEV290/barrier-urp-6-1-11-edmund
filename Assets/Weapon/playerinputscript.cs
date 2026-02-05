@@ -37,7 +37,7 @@ public class playerinputscript : MonoBehaviour
         {
             anim.SetTrigger("Punch3");
             punchCount = 0;
-            animBB.SetTrigger("moxieSmash");
+            animBB.SetTrigger("dead");
         }
     }
 }
